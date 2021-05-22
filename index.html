@@ -4,38 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit Shop WebsiteFE_WK2</title>
 </head>
 <body>
-    <header style="background: royalblue;">
-        <div style="float: left;">
-            <h1>The Fruit Shoppe</h1><br>
-            <H1 style="text-align: center;">Home</H1>
-        </div>
-        <div style="text-align: right;">
-            <br><a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a><br><br>
-    <div style="text-align: right;">
-        <img style="text-align: right;" height= "150px" src="eco-vegetarian-fruit-logo-vector-4185400.jpg"  alt="description of photo">
-    </div>       
+        <header>
+        <h1>My Fruit Shoppe</h1>
+        <div class="logo">
+            <img id="logopic" src="eco-vegetarian-fruit-logo-vector-4185400.png"  alt="description of photo">
+        </div>    
             
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        
     </header>
-<h1>Here is my Open Air Fruit Shoppe</h1> 
-</div> <br><br>
+        
+    
+    
+<section>
+            
+    <div id="div1">
+        <h2>Welcome to my Fruit Shoppe</h2> 
+        <img src="https://thumbs.dreamstime.com/z/fruit-market-tunis-tunisia-fruit-baskets-sale-market-tunis-tunisia-144523010.jpg" alt="description of photo">
+        <p id="fruitstandtext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aut nemo ullam repellat pariatur dolore, magnam ipsa dolorem consectetur voluptatibus. Velit aut nostrum nemo, beatae exercitationem consectetur fugit repellendus quae. Quibusdam ratione temporibus sequi enim eius magni minima animi placeat, assumenda nobis vero quae laboriosam eum! Nesciunt, dicta expedita perferendis, itaque blanditiis praesentium culpa dolorem mollitia pariatur facere officiis harum impedit cumque, similique eaque.</p>
+    </div> 
 
-<img height= "200px" src="https://thumbs.dreamstime.com/z/fruit-market-tunis-tunisia-fruit-baskets-sale-market-tunis-tunisia-144523010.jpg" alt="description of photo">
-<h1>Here is my Open Air Fruit Shoppe</h1>
+    <div id="div2">
+        <h2 id="appleheader">Come check out our large variety of apples</h2>
+        <img id="applepic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJQoSLm1XCoZe_ZHpByTTjNF9gqGrnFrmHwYgYFoIgMT6vUWz_73DpGj7LyXZhbapIjYMOa9O&usqp=CAc" alt="variety of apples">
+        <p id="appletext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vitae cum adipisci repudiandae eaque omnis nihil officiis impedit deleniti incidunt, magnam veniam beatae culpa? Iusto quae, repudiandae aut quam qui fugit! Sit consequuntur commodi atque odio ad id enim, veniam voluptatibus iusto iure. Tempora beatae suscipit atque ab in maiores quisquam voluptatibus. Unde, maiores laudantium cumque ad nemo debitis nihil minus eligendi sequi labore natus possimus quidem, totam iure placeat. Delectus recusandae sit tempora velit, expedita dicta illum iure totam nihil atque voluptatum magnam asperiores, reiciendis dignissimos. Deserunt ipsa qui quo tenetur molestias dolores, necessitatibus, ipsam tempora architecto officiis iste..</p>
+    </div>
+    
 
-<img height= "150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJQoSLm1XCoZe_ZHpByTTjNF9gqGrnFrmHwYgYFoIgMT6vUWz_73DpGj7LyXZhbapIjYMOa9O&usqp=CAc" alt="variety of apples">
-<h2>Come check out our large variety of apples</h2>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur 
-iste eligendi voluptatum eaque natus accusantium maxime esse deserunt repellendus 
-neque id a non vel dolor, nesciunt dolore? Tempore, mollitia.</p>
+</section>
 
-<Form style="text-align: center;">
-    <h3>Select the fruit below you would like us to send you more information on</h3>
-    <hr width="50%" >
+<section id="paragraphsection">
+    <div id="textdiv">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat magnam nesciunt ullam aperiam consectetur qui quod non a modi eligendi! Aspernatur maiores recusandae deserunt quo sequi tempora quidem, ex, quisquam natus assumenda illo dolorem accusamus ipsum reiciendis adipisci dignissimos quasi neque, aperiam incidunt omnis ullam cumque rerum sit. Accusamus, maxime.</p>
+    </div>
+    </section>
+    
+<Form>
+    <h3>Select the fruit below you would like us to send you more information on:</h3>
         <input type="checkbox" id="Apples" name="Apples" value="Apples">
         <label style="text-align: left;" for="Apples">Send Me More Info on Apples</label><br>
         <input type="checkbox" id="Oranges" name="Oranges" value="Oranges">
@@ -44,18 +59,20 @@ neque id a non vel dolor, nesciunt dolore? Tempore, mollitia.</p>
         <label for="Pears"> Send Me More Info on Pears</label><br>
         <input type="checkbox" id="Bananas" name="Bananas" value="Bananas">
         <label for="Bananas"> Send Me More Info on Bananas</label><br><br>
-        <label for="fname">First Name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last Name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="email">Best Email Address:</label><br>
-        <input type="text" id="email" name="email"><br><br>
-        <input type="submit" value="Submit">
-        <input type="reset">
 
+        <div class="form"><label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Best Email Address:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </div>
+        
 </Form><br><br>
-<footer style="background-color: royalblue;">
-    <br><ul>
+<footer>
+    <br><ul id="footermenu">
         <li>Privacy Policy</li>
         <li>Terms Of Service</li>
         <li>Copyright Policy</li>

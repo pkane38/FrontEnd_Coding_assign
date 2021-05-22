@@ -1,0 +1,98 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #d4d6b98e;
+    height: 200px;
+    width: 100%; 
+}
+
+
+
+div.logo {
+    padding-top: 0px;
+    margin-top: -60px;
+    margin-bottom: 00px; 
+    margin-left: 70px;   
+}
+
+#logopic {
+    align-items: left;
+    height: 140px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: -50px;
+    padding-top: 00px;   
+}
+
+h2 {
+    text-align: left;
+    text-shadow: 1px 3px rgb(25, 92, 28);
+    color: purple; 
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: -200px;  
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 00px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px; 
+}
+div {
+    margin-top: 250px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p {
+    margin-left: 18px;
+    margin-top: 00px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    border: 2px solid;
+    text-align: center;
+    color: green; 
+    margin-top: 25px;
+    margin-left: 20px;
+}
+footer {
+    background-color: royalblue; 
+    margin-top: 100px;
+    padding-top: 50px;
+    min-height: 175px; 
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#footermenu { 
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+
+
+    

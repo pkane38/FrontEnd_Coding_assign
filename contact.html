@@ -5,18 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
-    <Header><H2>Contact</H2></Header>
+    <header>
+        <h1>My Fruit Shoppe</h1>
+        <div class="logo">
+            <img id="logopic" src="eco-vegetarian-fruit-logo-vector-4185400.png"  alt="description of photo">
+        </div>    
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+        <div style="height:350;">
+            <Form class="form">
+                <h2>Contact Us</h2>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Best Email Address:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
 
-
-    <div>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
-    
+        </Form><br><br> 
+        </div>
     <table>
         <tr>
             <th>Site</th>
@@ -30,29 +51,17 @@
             <td>Instagram</td>
             <td><a href="#">Visit our Instagram Page</a></td>
         </tr>
-            
-
-        <Form>
-                <h2>Contact Us</h2>
-                <label for="fname">First Name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last Name:</label><br>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email">Best Email Address:</label><br>
-                <input type="text" id="email" name="email"><br><br>
-                <input type="submit" value="Submit">
-                <input type="reset">
-
-        </Form><br><br>   
+              
     </table>
 
-    <footer style="background-color: royalblue;">
-        <br><ul>
-            <li>Privacy Policy</li>
-            <li>Terms Of Service</li>
-            <li>Copyright Policy</li>
-        </ul><br>
-    </footer>
+</Form><br><br>
+<footer>
+    <br><ul id="footermenu">
+        <li >Privacy Policy</li>
+        <li>Terms Of Service</li>
+        <li>Copyright Policy</li>
+    </ul><br>
+</footer>
 
 </body>
 </html>
