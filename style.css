@@ -1,0 +1,185 @@
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #d4d6b98e;
+    height: 200px;
+    width: 100%;
+    
+}
+
+h1 {
+    text-align: left;
+    text-shadow: 1px 3px rgb(25, 92, 28);
+    color: purple; 
+    margin-top: 8px;
+}
+
+.logo {
+     padding-top: 0px;
+     margin-top: -60px;
+     margin-bottom: 00px;
+     
+}
+#logopic {
+    align-items: center;
+    height: 140px;
+    width: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 35px;
+    
+}
+
+img {
+    float: left;
+    size: 250px;
+    margin-left: 00px;
+    margin-top: 10px;
+    padding-left: 20px;
+    height: 200px;
+    width: auto;
+ }
+
+ #div1 {
+    margin-top: -20px;
+    margin-bottom: -25px;
+}
+ 
+#fruitstandtext {
+    float: right;
+    text-align: center;
+    width: 60%;
+    background-color: rgba(128, 128, 128, 0.10);
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+    padding: 15px;
+    
+}
+
+ 
+#div2 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#appletext {
+    float: left;
+    background-color: rgba(128, 128, 128, 0.10);
+    width: 65%;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    text-align: left;
+    margin-top: -30px;
+    margin-left: 10px;
+    padding-left: px;
+    padding-top: 00px;
+    color: #a61c3cbe;
+    text-decoration: underline;
+    margin-bottom: 00px;
+}
+
+nav {
+    float: right;
+    margin-top: -20px;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 18px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+section {
+    width: 80%;
+    margin-top: 275px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#appleheader{
+    color: #a61c3cbe;
+    padding-top: 20px;
+    margin-top: 200px;
+    text-align: right;
+}
+
+#applepic {
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    margin-bottom: 25px;
+}
+
+li {
+    float: right;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+#paragrphsection {
+    margin-top: 35px;
+    width: 80%;
+}
+#textdiv{
+    margin-top: -200;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 3px solid green;
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+form {
+    background-color: #d4d6b98e;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    height: 400px;
+}
+
+.form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:3px solid rgb(25, 92, 28);
+    border-radius: 5px;
+    background-color: green;
+    width: 200px;
+    padding: 20px; 
+}
+
+footer {
+    background-color: royalblue; 
+    min-height: 175px; 
+    border: 3px solid black;
+    text-align: center;
+}
+
+#footermenu { 
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    text-align: left;
+}
+    
